@@ -299,7 +299,7 @@ var KONFIG = { logo: 'img/logo.svg', avatar: 'img/avatar.svg' };
     $('#judulHal').textContent = HAL[S.hal];
     document.title = HAL[S.hal] + ' · Anggaran ' + NAMA;
     var j = new Date().getHours();
-    $('#sapa').textContent = (j < 11 ? 'Selamat pagi' : j < 15 ? 'Selamat siang' : j < 18 ? 'Selamat sore' : 'Selamat malam') + ', ' + NAMA;
+    $('#sapa').textContent = (j < 11 ? 'Selamat pagi' : j < 15 ? 'Selamat siang' : j < 18 ? 'Selamat sore' : 'Selamat malam') + ', ' + Arya & Kezia;
     $('#labelBulan').textContent = labelBulan(S.bulan);
     $('#bulanMaju').disabled = S.bulan >= blnKey(new Date());
     $('.pilih-bulan').hidden = (S.hal === 'tabungan' || S.hal === 'atur');
